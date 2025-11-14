@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Git Push Practice — Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Git Push Practice</h1>
+    <p class="lead">Make changes, commit them, and push to your GitHub repo.</p>
+
+    <section class="card">
+      <label for="message">Enter a message to add to the wall:</label>
+      <input id="message" type="text" placeholder="Write something..." />
+      <button id="addBtn">Add to Wall</button>
+    </section>
+
+    <section class="card">
+      <h2>Message Wall</h2>
+      <ul id="wall"></ul>
+      <div class="actions">
+        <button id="clearBtn">Clear Wall</button>
+        <button id="downloadBtn">Download JSON</button>
+      </div>
+    </section>
+
+    <footer>
+      <small>Use this tiny app to make visible changes to commit & push.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
